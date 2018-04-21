@@ -3,10 +3,10 @@
 Python 機器學習 (Python Machine Learning) 
 Sebastian Raschka 著，劉立民、吳建華 譯
 出版商:博碩 出版日期:2016-09-14
+```
+[第一版程式碼](https://github.com/rasbt/python-machine-learning-book)
 
-https://github.com/rasbt/python-machine-learning-book
-
-https://github.com/rasbt/python-machine-learning-book-2nd-edition#whats-new-in-the-second-edition-from-the-first-edition
+[第二版程式碼](https://github.com/rasbt/python-machine-learning-book-2nd-edition#whats-new-in-the-second-edition-from-the-first-edition)
 ```
 ```
 第1章 賦予電腦學習資料的能力1
