@@ -3,9 +3,10 @@
 # bwapp / A1 - Injection /
 
 [HTML Injection - Reflected (GET)](https://www.youtube.com/watch?v=q4SVMPGASIU)
-```
-HTML Injection - Reflected (POST)
 
+[HTML Injection - Reflected (POST)](https://www.youtube.com/watch?v=VrrI7jlN5gQ)
+
+```
 HTML Injection - Reflected (Current URL)
 
 HTML Injection - Stored (Blog)
