@@ -100,11 +100,21 @@ print(neigh_predict_prob([[0.9]]))
 ```
 
 5.3 示例：使用K近鄰演算法檢測異常操作（一） 76
+
+```
+測試資料集: http://www.schonlau.net/
+Masquerading User Data
+
+5-2.py
+
+```
+
+```
 5.4 示例：使用K近鄰演算法檢測異常操作（二） 80
 5.5 示例：使用K近鄰演算法檢測Rootkit 81
 5.6 示例：使用K近鄰演算法檢測WebShell 83
 5.7 本章小結 85
-參考資源 86
+參考資料 
 
 第6章 決策樹與隨機森林演算法 87
 6.1 決策樹演算法概述 87
@@ -136,19 +146,69 @@ print(neigh_predict_prob([[0.9]]))
 8.4 示例：識別驗證碼 113
 8.5 本章小結 114
 參考資源 114
-
+```
 第9章 支援向量機演算法 115
+```
 9.1 支援向量機演算法概述 115
 9.2 示例：hello world！支持向量機 118
+```
+```
+print(__doc__)
+
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import svm
+
+# we create 40 separable points
+np.random.seed(0)
+X = np.r_[np.random.randn(20, 2) - [2, 2], np.random.randn(20, 2) + [2, 2]]
+Y = [0] * 20 + [1] * 20
+
+# fit the model
+clf = svm.SVC(kernel='linear')
+clf.fit(X, Y)
+
+# get the separating hyperplane
+w = clf.coef_[0]
+a = -w[0] / w[1]
+xx = np.linspace(-5, 5)
+yy = a * xx - (clf.intercept_[0]) / w[1]
+
+# plot the parallels to the separating hyperplane that pass through the
+# support vectors
+b = clf.support_vectors_[0]
+yy_down = a * xx + (b[1] - a * b[0])
+b = clf.support_vectors_[-1]
+yy_up = a * xx + (b[1] - a * b[0])
+
+# plot the line, the points, and the nearest vectors to the plane
+plt.plot(xx, yy, 'k-')
+plt.plot(xx, yy_down, 'k--')
+plt.plot(xx, yy_up, 'k--')
+
+plt.scatter(clf.support_vectors_[:, 0], clf.support_vectors_[:, 1],
+            s=80, facecolors='none')
+plt.scatter(X[:, 0], X[:, 1], c=Y, cmap=plt.cm.Paired)
+
+plt.axis('tight')
+plt.show()
+```
 9.3 示例：使用支援向量機演算法識別XSS 120
+```
+9-2.py
+```
 9.4 示例：使用支援向量機演算法區分僵屍網路DGA家族 124
+```
+9-3.py
 9.4.1 資料搜集和資料清洗 124
 9.4.2 特徵化 125
 9.4.3 模型驗證 129
-9.5 本章小結 130
-參考資源 130
 
-第10章 K-Means與DBSCAN演算法 131
+參考資源 130
+```
+### 第10章 K-Means與DBSCAN演算法 131
+
+```
 10.1 K-Means演算法概述 131
 10.2 示例：hello world！K-Means 132
 10.3 示例：使用K-Means演算法檢測DGA功能變數名稱 133
