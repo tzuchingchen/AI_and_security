@@ -32,15 +32,14 @@ https://github.com/chenyuntc/pytorch-book
 1 PyTorch簡介
 1.1 PyTorch的誕生
 1.2常見的深度學習框架簡介
-1.2.1 Theano 
-1.2.2 TensorFlow 
-1.2.3 Keras 
-1.2.4 Caffe/Caffe2 
-1.2.5 MXNet 
-1.2.6 CNTK 
-1.2.7其他框架
+1.2.1 Theano  1.2.2 TensorFlow  1.2.3 Keras 
+1.2.4 Caffe/Caffe2  1.2.5 MXNet  1.2.6 CNTK  1.2.7其他框架
 1.3屬於動態圖的未來
+
+
 1.4為什麼選擇PyTorch 
+http://pytorch.org/about/
+
 1.5星火燎原
 1.6 fast.ai放棄Keras+TensorFlow選擇PyTorch 
 ```
@@ -50,14 +49,68 @@ https://github.com/chenyuntc/pytorch-book
 2.1.1安裝PyTorch 
 [1]使用pip安裝
 
+pip3 install torch torchvision
+
+pip install torch torchvision
+
 [2]使用anaconda安裝
 conda install pytorch torchversion -c soumith
 
+[3]使用Docker安裝
+
+
+
 官方網址:conda install pytorch torchvision -c pytorch
+
 http://pytorch.org/
 
-官方範例:https://github.com/pytorch/examples
+https://github.com/pytorch/pytorch
+
+http://pytorch.org/docs/stable/index.html
+
 ```
+
+## More about PyTorch
+
+At a granular level, PyTorch is a library that consists of the following components:
+
+<table>
+<tr>
+    <td><b> torch </b></td>
+    <td> a Tensor library like NumPy, with strong GPU support </td>
+</tr>
+<tr>
+    <td><b> torch.autograd </b></td>
+    <td> a tape-based automatic differentiation library that supports all differentiable Tensor operations in torch </td>
+</tr>
+<tr>
+    <td><b> torch.nn </b></td>
+    <td> a neural networks library deeply integrated with autograd designed for maximum flexibility </td>
+</tr>
+<tr>
+    <td><b> torch.multiprocessing  </b></td>
+    <td> Python multiprocessing, but with magical memory sharing of torch Tensors across processes. Useful for data loading and Hogwild training. </td>
+</tr>
+<tr>
+    <td><b> torch.utils </b></td>
+    <td> DataLoader, Trainer and other utility functions for convenience </td>
+</tr>
+<tr>
+    <td><b> torch.legacy(.nn/.optim) </b></td>
+    <td> legacy code that has been ported over from torch for backward compatibility reasons </td>
+</tr>
+</table>
+
+Usually one uses PyTorch either as:
+
+- a replacement for NumPy to use the power of GPUs.
+- a deep learning research platform that provides maximum flexibility and speed
+
+
+[Welcome to PyTorch Tutorials](http://pytorch.org/tutorials/index.html)
+
+[官方範例](https://github.com/pytorch/examples)
+
 ### PyTorch Examples
 
 A repository showcasing examples of using [PyTorch](https://github.com/pytorch/pytorch)
@@ -79,6 +132,8 @@ Additionally, a list of good examples hosted in their own repositories:
 
 ```
 2.1.2學習環境配置
+
+
 2.2 PyTorch入門第一步
 2.2.1 Tensor 
 2.2.2 Autograd ：自動微分
