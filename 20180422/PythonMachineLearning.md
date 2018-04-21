@@ -69,7 +69,7 @@ https://github.com/duoergun0729/1book
 5.1 K近鄰演算法概述 74
 
 5.2 示例：hello world！K近鄰 75
-
+http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html
 ```
 print(__doc__)
 
