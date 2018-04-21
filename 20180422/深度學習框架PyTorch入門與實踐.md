@@ -43,26 +43,27 @@ http://pytorch.org/about/
 1.5星火燎原
 1.6 fast.ai放棄Keras+TensorFlow選擇PyTorch 
 ```
-```
-2快速入門
-2.1安裝與配置
-2.1.1安裝PyTorch 
-[1]使用pip安裝
 
+# 2快速入門
+
+2.1安裝與配置
+
+## 2.1.1安裝PyTorch 
+
+###[1]使用pip安裝
+```
 pip3 install torch torchvision
 
 pip install torch torchvision
-
-[2]使用anaconda安裝
+```
+### [2]使用anaconda安裝
+```
 conda install pytorch torchversion -c soumith
 
 官方網址:conda install pytorch torchvision -c pytorch
-
-[3]使用Docker安裝
-
 ```
 
-### Docker image
+### [3]使用Docker安裝:Docker image
 
 Dockerfile is supplied to build images with cuda support and cudnn v7. Build as usual
 ```
@@ -78,7 +79,7 @@ Please note that PyTorch uses shared memory to share data between processes, so 
 for multithreaded data loaders) the default shared memory segment size that container runs with is not enough, and you
 should increase shared memory size either with `--ipc=host` or `--shm-size` command line options to `nvidia-docker run`.
 
-
+### pytorch官方文件
 ```
 http://pytorch.org/
 
@@ -148,15 +149,16 @@ Additionally, a list of good examples hosted in their own repositories:
 
 - [Neural Machine Translation using sequence-to-sequence RNN with attention (OpenNMT)](https://github.com/OpenNMT/OpenNMT-py)
 
-```
+
 2.1.2學習環境配置
 
+- 使用iPython
+- 使用jupiter notebook
 
-2.2 PyTorch入門第一步
-2.2.1 Tensor 
-2.2.2 Autograd ：自動微分
-2.2.3神經網絡
-2.2.4小試牛刀：CIFAR-10分類
+```
+
+2.2 PyTorch入門第一步  see chapter2: PyTorch快速入門.ipynb
+2.2.1 Tensor  2.2.2 Autograd ：自動微分 2.2.3神經網絡 2.2.4小試牛刀：CIFAR-10分類
 
 3 Tensor和autograd 
 3.1 Tensor 
