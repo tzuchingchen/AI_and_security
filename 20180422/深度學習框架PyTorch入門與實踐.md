@@ -70,9 +70,9 @@ http://pytorch.org/docs/stable/index.html
 
 ```
 
-## More about PyTorch
+## PyTorch深論
 
-At a granular level, PyTorch is a library that consists of the following components:
+PyTorch是一個函式庫由底下元件(components)所組成:
 
 <table>
 <tr>
@@ -101,7 +101,7 @@ At a granular level, PyTorch is a library that consists of the following compone
 </tr>
 </table>
 
-Usually one uses PyTorch either as:
+PyTorch的使用情境:
 
 - a replacement for NumPy to use the power of GPUs.
 - a deep learning research platform that provides maximum flexibility and speed
