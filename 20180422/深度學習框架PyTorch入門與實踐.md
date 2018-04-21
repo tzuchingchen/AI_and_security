@@ -1,5 +1,8 @@
-# 深度學習框架PyTorch入門與實踐
+# {教科書}深度學習框架PyTorch入門與實踐
 ```
+深度學習框架PyTorch:入門與實踐 深度学习框架PyTorch:入门与实践
+陳雲 電子工業出版社  出版日期:2018-01-01
+
 https://github.com/chenyuntc/pytorch-book
 ```
 
