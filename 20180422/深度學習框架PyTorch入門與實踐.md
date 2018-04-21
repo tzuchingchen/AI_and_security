@@ -69,7 +69,7 @@ should increase shared memory size either with `--ipc=host` or `--shm-size` comm
 
 1. 安裝[PyTorch](http://pytorch.org)，請從官網選擇指定的版本安裝即可，一鍵安裝（即使你使用anaconda，也建議使用pip）。更多的安裝方式請參閱書中說明。
 
-2. 克隆倉庫
+2. 複製github上的檔案
 
    ```python
    git clone https://github.com/chenyuntc/PyTorch-book.git
