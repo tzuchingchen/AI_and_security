@@ -10,6 +10,21 @@ https://github.com/chenyuntc/pytorch-book
 - 第四章介紹了PyTorch中神經網路模組nn的基礎用法，同時講解了神經網路中“層”，“損失函數”，“優化器”等，最後帶領讀者用不到50行的代碼搭建出曾奪得ImageNet冠軍的ResNet。
 - 第五章介紹了PyTorch中資料載入，GPU加速，持久化和視覺化等相關工具。
 
+## 環境配置
+
+1. 安裝[PyTorch](http://pytorch.org)，請從官網選擇指定的版本安裝即可，一鍵安裝（即使你使用anaconda，也建議使用pip）。更多的安裝方式請參閱書中說明。
+
+2. 克隆倉庫
+
+   ```python
+   git clone https://github.com/chenyuntc/PyTorch-book.git
+   ```
+
+3. 安裝協力廠商依賴包
+
+   ```python
+   cd pytorch-book && pip install -r requirements.txt
+   ```
 
 
 
