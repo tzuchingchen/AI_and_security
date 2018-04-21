@@ -64,8 +64,9 @@ SQL Injection - Blind (Web Services/SOAP)
 XML/XPath Injection (Login Form)
 
 XML/XPath Injection (Search)
-
-/ A2 - Broken Auth. & Session Mgmt. /
+```
+### / A2 - Broken Auth. & Session Mgmt. /
+```
 Broken Authentication - CAPTCHA Bypassing
 
 Broken Authentication - Forgotten Function
@@ -87,8 +88,9 @@ Session Management - Cookies (Secure)
 Session Management - Session ID in URL
 
 Session Management - Strong Sessions
-
-/ A3 - Cross-Site Scripting (XSS) /
+```
+###/ A3 - Cross-Site Scripting (XSS) /
+```
 Cross-Site Scripting - Reflected (GET)
 
 Cross-Site Scripting - Reflected (POST)
@@ -126,15 +128,18 @@ Cross-Site Scripting - Stored (Cookies)
 Cross-Site Scripting - Stored (SQLiteManager)
 
 Cross-Site Scripting - Stored (User-Agent)
+```
 
-/ A4 - Insecure Direct Object References /
+### / A4 - Insecure Direct Object References /
+```
 Insecure DOR (Change Secret)
 
 Insecure DOR (Reset Secret)
 
 Insecure DOR (Order Tickets)
-
-/ A5 - Security Misconfiguration /
+```
+### / A5 - Security Misconfiguration /
+```
 Arbitrary File Access (Samba)
 
 Cross-Domain Policy File (Flash)
@@ -168,8 +173,9 @@ Man-in-the-Middle Attack (SMTP)
 Old/Backup & Unreferenced Files
 
 Robots File
-
-/ A6 - Sensitive Data Exposure /
+```
+### / A6 - Sensitive Data Exposure /
+```
 Base64 Encoding (Secret)
 
 BEAST/CRIME/BREACH Attacks
@@ -187,8 +193,10 @@ POODLE Vulnerability
 SSL 2.0 Deprecated Protocol
 
 Text Files (Accounts)
+```
 
-/ A7 - Missing Functional Level Access Control /
+### / A7 - Missing Functional Level Access Control /
+```
 Directory Traversal - Directories
 
 Directory Traversal - Files
@@ -208,15 +216,18 @@ Restrict Folder Access
 Server Side Request Forgery (SSRF)
 
 XML External Entity Attacks (XXE)
-
-/ A8 - Cross-Site Request Forgery (CSRF) /
+```
+### / A8 - Cross-Site Request Forgery (CSRF) /
+```
 Cross-Site Request Forgery (Change Password)
 
 Cross-Site Request Forgery (Change Secret)
 
 Cross-Site Request Forgery (Transfer Amount)
+```
 
-/ A9 - Using Known Vulnerable Components /
+###/ A9 - Using Known Vulnerable Components /
+```
 Buffer Overflow (Local)
 
 Buffer Overflow (Remote)
@@ -238,13 +249,15 @@ SQLiteManager Local File Inclusion
 SQLiteManager PHP Code Injection
 
 SQLiteManager XSS
-
-/ A10 - Unvalidated Redirects & Forwards /
+```
+###/ A10 - Unvalidated Redirects & Forwards /
+```
 Unvalidated Redirects & Forwards (1)
 
 Unvalidated Redirects & Forwards (2)
-
-/ Other bugs... /
+```
+### / Other bugs... /
+```
 ClickJacking (Movie Tickets)
 
 Client-Side Validation (Password)
