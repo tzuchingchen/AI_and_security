@@ -65,7 +65,7 @@ Please note that PyTorch uses shared memory to share data between processes, so 
 for multithreaded data loaders) the default shared memory segment size that container runs with is not enough, and you
 should increase shared memory size either with `--ipc=host` or `--shm-size` command line options to `nvidia-docker run`.
 
-## 環境配置
+## 課本教材環境配置
 
 1. 安裝[PyTorch](http://pytorch.org)，請從官網選擇指定的版本安裝即可，一鍵安裝（即使你使用anaconda，也建議使用pip）。更多的安裝方式請參閱書中說明。
 
