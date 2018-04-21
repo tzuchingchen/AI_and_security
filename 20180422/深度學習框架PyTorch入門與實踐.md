@@ -166,18 +166,14 @@ Additionally, a list of good examples hosted in their own repositories:
 2.2.1 Tensor  2.2.2 Autograd ：自動微分 2.2.3神經網絡 2.2.4小試牛刀：CIFAR-10分類
 
 ## 3 Tensor和autograd 
+
+[3.1 Tensor](https://github.com/MyDearGreatTeacher/AI_and_security/blob/master/20180422/3_1_Tensor.ipynb)
 ```
-3.1 Tensor 
-3.1.1基礎操作
-3.1.2 Tensor和Numpy 
-3.1.3內部結構
-3.1.4其他有關Tensor的話題
-3.1.5小試牛刀：線性回歸
-3.2 autograd 
-3.2.1 Variable 
-3.2.2計算圖
-3.2.3擴展autograd 
-3.2.4小試牛刀：用Variable實現線性回歸
+3.1.1基礎操作 3.1.2 Tensor和Numpy  3.1.3內部結構 3.1.4其他有關Tensor的話題 3.1.5小試牛刀：線性回歸
+```
+[3.2 autograd](https://github.com/MyDearGreatTeacher/AI_and_security/blob/master/20180422/3_2_autograd.ipynb)
+```
+3.2.1 Variable  3.2.2計算圖 3.2.3擴展autograd  3.2.4小試牛刀：用Variable實現線性回歸
 ```
 ## 4神經網絡工具箱nn 
 ```
