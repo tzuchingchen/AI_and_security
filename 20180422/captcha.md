@@ -2,7 +2,7 @@
 
 ### [2014 Google NoCAPTCHA]
 
-### [reCAPTCHA]
+### [reCAPTCHA](https://developers.google.com/recaptcha/)
 
 ### [Microsoft CAPTCHAs]()
 
@@ -10,16 +10,35 @@
 
 ### [OWASP PureCaptcha](https://github.com/OWASP/PureCaptcha)
 
-### []()
+### [Meteor-reCAPTCHA](https://github.com/Altapp/Meteor-reCAPTCHA)
 
 # CAPTCHA generator 
 
-###  [a Java based CAPTCHA generator (SimpleCAPTCHA)]()
+###  [a Java based CAPTCHA generator (SimpleCAPTCHA)](http://simplecaptcha.sourceforge.net/)
+
+### [RuCaptcha](https://github.com/huacnlee/rucaptcha)
 
 # attacking captcha
 
 
+[uncaptcha](https://github.com/ecthros/uncaptcha)
+
 https://github.com/tharidu/breakingcaptcha/blob/master/report/CAPTCHA-report.md
+
+[https://www.blackhat.com/docs/asia-16/materials/asia-16-Sivakorn-Im-Not-a-Human-Breaking-the-Google-reCAPTCHA-wp.pdf]
+
+### lab 1:
+
+https://github.com/securelayer7/Captch-Bypass-Vulnerable-Script
+
+http://blog.securelayer7.net/owasp-top-10-insufficient-attack-protection-7-captcha-bypass/
+
+http://blog.securelayer7.net/owasp-top-10-insufficient-attack-protection-7-captcha-bypass/
+
+https://github.com/securelayer7/Captch-Bypass-Vulnerable-Script/tree/master/CaptchaExploits
+
+### lab 2:
+
 
 ## References
 1. Goodfellow, Ian J., et al. "Multi-digit number recognition from street view imagery using deep convolutional neural networks." arXiv preprint arXiv:1312.6082 (2013).
