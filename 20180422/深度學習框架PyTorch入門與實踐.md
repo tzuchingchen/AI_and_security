@@ -36,7 +36,7 @@ http://pytorch.org/about/
 
 ## 2.1.1安裝PyTorch 
 
-###[1]使用pip安裝
+### [1]使用pip安裝
 ```
 pip3 install torch torchvision
 
