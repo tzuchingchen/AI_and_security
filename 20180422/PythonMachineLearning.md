@@ -63,9 +63,42 @@ https://github.com/duoergun0729/1book
 4.5 本章小結 72
 參考資源 72
 
-第5章 K近鄰演算法 74
+```
+### 第5章 K近鄰演算法 74
+
 5.1 K近鄰演算法概述 74
+
 5.2 示例：hello world！K近鄰 75
+
+```
+print(__doc__)
+
+from sklearn.neighbors import NearestNeighbors
+import numpy as np
+
+
+X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
+nbrs = NearestNeighbors(n_neighbors=2, algorithm='ball_tree').fit(X)
+
+distances, indices = nbrs.kneighbors(X)
+
+print distances
+print indices
+
+print nbrs.kneighbors_graph(X).toarray()
+```
+KNN監督學習
+```
+
+X = [[0],[1],[2],[3]]  
+y = [0, 0, 1 ,1]
+from sklearn.neighbors import KNe1ghborsClassifier
+neigh = KNe1ghborsClassifier(n_neighbers=3)
+neigh.fit(X,y)
+print(neigh_predict([[1.1]]))
+print(neigh_predict_prob([[0.9]]))
+```
+
 5.3 示例：使用K近鄰演算法檢測異常操作（一） 76
 5.4 示例：使用K近鄰演算法檢測異常操作（二） 80
 5.5 示例：使用K近鄰演算法檢測Rootkit 81
