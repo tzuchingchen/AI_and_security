@@ -206,15 +206,49 @@ plt.show()
 
 參考資源 130
 ```
-### 第10章 K-Means與DBSCAN演算法 131
+### 第10章 無監督學習演算法:K-Means與DBSCAN演算法 131
 
 ```
 10.1 K-Means演算法概述 131
 10.2 示例：hello world！K-Means 132
-10.3 示例：使用K-Means演算法檢測DGA功能變數名稱 133
+10-1.py
+```
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+from sklearn.cluster import KMeans
+from sklearn.datasets import make_blobs
+
+def show_kmeans():
+    print(__doc__)
+    plt.figure(figsize=(12, 12))
+
+    n_samples = 1500
+    random_state = 170
+    X, y = make_blobs(n_samples=n_samples, random_state=random_state)
+    y_pred = KMeans(n_clusters=3, random_state=random_state).fit_predict(X)
+
+
+    plt.subplot(221)
+    plt.scatter(X[:, 0], X[:, 1], c=y_pred)
+    plt.title("hello word!")
+
+    plt.show()
+
+if __name__ == '__main__':
+    show_kmeans()
+```
+
+```
+
+10.3 示例：使用K-Means演算法檢測殭屍網路DGA功能變數名稱 133
+10-2.py
+
 10.4 DBSCAN演算法概述 135
 10.5 示例：hello world！DBSCAN 135
-10.6 本章小結 137
+10-3.py
+
 參考資源 137
 ```
 ### 第11章 Apriori與FP-growth演算法 138
@@ -232,11 +266,19 @@ plt.show()
 ### 第12章 隱式瑪律可夫演算法 147
 ```
 12.1 隱式瑪律可夫演算法概述 147
+Hidden Markov model 
+https://en.wikipedia.org/wiki/Hidden_Markov_model
+
+需額外安裝HMM
+pip install hmmlearn
+
 12.2 hello world! 隱式瑪律可夫 148
+12-1.py
+
 12.3 示例：使用隱式瑪律可夫演算法識別XSS攻擊（一） 150
+12-2.py
 12.4 示例：使用隱式瑪律可夫演算法識別XSS攻擊（二） 153
-12.5 示例：使用隱式瑪律可夫演算法識別DGA功能變數名稱 159
-12.6 本章小結 162
+12.5 示例：使用隱式瑪律可夫演算法識別僵屍網路DGA功能變數名稱 159
 參考資源 162
 ```
 ### 第13章 圖演算法與知識圖譜 163
@@ -283,24 +325,43 @@ plt.show()
 參考資源 210
 ```
 
-### 第16章 迴圈神經網路演算法 212
+### 第16章 迴圈神經網路演算法(RNN) 212
 ```
+https://brohrer.mcknote.com/zh-Hant/how_machine_learning_works/how_rnns_lstm_work.html
+
 16.1 迴圈神經網路演算法概述 212
 16.2 示例：識別驗證碼 213
+16-1.py
+
 16.3 示例：識別惡意評論 216
+16-2.py
+16-3.py
+
 16.4 示例：生成城市名稱 220
+16-4.py
+
 16.5 示例：識別WebShell 222
+LSTM
+16-5.py
+
 16.6 示例：生成常用密碼 225
+16-6.py
+
 16.7 示例：識別異常操作 227
-16.8 本章小結 230
+16-7.py
+
 參考資源 230
 ```
 
-### 第17章 卷積神經網路演算法 231
+### 第17章 卷積神經網路演算法(CNN) 231
 ```
 17.1 卷積神經網路演算法概述 231
 17.2 示例：hello world！卷積神經網路 234
+17-1.py
+
 17.3 示例：識別惡意評論 235
+17-2.py
+
 17.4 示例：識別垃圾郵件 237
-17.5 本章小結 240
+17-3.py
 ```
