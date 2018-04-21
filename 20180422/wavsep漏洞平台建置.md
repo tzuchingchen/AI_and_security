@@ -3,6 +3,10 @@
 WAVSEP 是一個包含漏洞的web應用程式，目的是説明測試web應用漏洞掃描器的功能、品質和準確性。
 WAVSEP 收集了很多獨特的包含漏洞的web頁面，用於測試web應用程式掃描器的多種特特性。
 
+
+Ubuntu14.04下部署wavsep
+https://blog.csdn.net/lesliegail1/article/details/69949041
+
 目前WAVSEP支持的漏洞包括：
 Reflected XSS: 66 test cases, implemented in 64 jsp pages (GET & POST
 Error Based SQL Injection: 80 test cases, implemented in 76 jsp pages (GET & POST )
