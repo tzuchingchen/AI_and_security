@@ -5,13 +5,13 @@ WAVSEP 收集了很多獨特的包含漏洞的web頁面，用於測試web應用�
 
 https://github.com/sectooladdict/wavsep
 
+https://github.com/sectooladdict/wavsep/wiki/WAVSEP-Features
 
 目前WAVSEP支持的漏洞包括：
 Reflected XSS: 66 test cases, implemented in 64 jsp pages (GET & POST
 Error Based SQL Injection: 80 test cases, implemented in 76 jsp pages (GET & POST )
 Blind SQL Injection: 46 test cases, implemented in 44 jsp pages (GET & POST )
 Time Based SQL Injection: 10 test cases, implemented in 10 jsp pages (GET & POST )
-
 ```
 # 下載wavsep
 ```
