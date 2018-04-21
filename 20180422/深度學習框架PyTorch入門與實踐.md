@@ -157,9 +157,10 @@ Additionally, a list of good examples hosted in their own repositories:
 - 使用iPython
 - 使用jupiter notebook
 
-```
 
-2.2 PyTorch入門第一步  see chapter2: PyTorch快速入門.ipynb
+
+[2.2 PyTorch入門第一步](https://github.com/MyDearGreatTeacher/AI_and_security/blob/master/20180422/chapter2:%20PyTorch%E5%BF%AB%E9%80%9F%E5%85%A5%E9%96%80.ipynb)
+```
 2.2.1 Tensor  2.2.2 Autograd ：自動微分 2.2.3神經網絡 2.2.4小試牛刀：CIFAR-10分類
 
 3 Tensor和autograd 
