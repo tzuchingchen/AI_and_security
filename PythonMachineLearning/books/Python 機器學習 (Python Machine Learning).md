@@ -7,7 +7,7 @@ Sebastian Raschka 著，劉立民、吳建華 譯
 [第一版程式碼](https://github.com/rasbt/python-machine-learning-book)
 
 [第二版程式碼](https://github.com/rasbt/python-machine-learning-book-2nd-edition#whats-new-in-the-second-edition-from-the-first-edition)
-```
+
 ```
 第1章 賦予電腦學習資料的能力1
 1.1構建智慧型機器將資料轉化為知識1
