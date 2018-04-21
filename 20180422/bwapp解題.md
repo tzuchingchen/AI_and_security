@@ -1,4 +1,4 @@
-# bwapp解題
+# bwapp解題(OWASP TOP 10[2013])
 
 # bwapp / A1 - Injection /
 
@@ -89,7 +89,7 @@ Session Management - Session ID in URL
 
 Session Management - Strong Sessions
 ```
-###/ A3 - Cross-Site Scripting (XSS) /
+### /A3 - Cross-Site Scripting (XSS) /
 ```
 Cross-Site Scripting - Reflected (GET)
 
