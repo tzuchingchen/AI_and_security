@@ -178,8 +178,9 @@ Additionally, a list of good examples hosted in their own repositories:
 3.2.2計算圖
 3.2.3擴展autograd 
 3.2.4小試牛刀：用Variable實現線性回歸
-
-4神經網絡工具箱nn 
+```
+## 4神經網絡工具箱nn 
+```
 4.1 nn.Module 
 4.2常用的神經網絡層
 4.2.1圖像相關層
@@ -192,8 +193,9 @@ Additionally, a list of good examples hosted in their own repositories:
 4.6 nn.Module深入分析
 4.7 nn和autograd的關係
 4.8小試牛刀：用50行代碼搭建ResNet 
-
-5 PyTorch中常用的工具
+```
+## 5 PyTorch中常用的工具
+```
 5.1數據處理
 5.2計算機視覺工具包：torchvision 
 5.3可視化工具
