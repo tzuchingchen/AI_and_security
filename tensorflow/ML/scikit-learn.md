@@ -16,6 +16,7 @@ http://scikit-learn.org/stable/datasets/
 ## 學習主題：
 ```
 [第 21 天] 機器學習 玩具資料與線性迴歸
+https://ithelp.ithome.com.tw/articles/10186905
 [第 22 天] 機器學習（2）複迴歸與 Logistic 迴歸
 [第 23 天] 機器學習（3）決策樹與 k-NN 分類器
 [第 24 天] 機器學習（4）分群演算法
