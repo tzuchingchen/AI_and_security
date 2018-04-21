@@ -3,9 +3,8 @@
 WAVSEP 是一個包含漏洞的web應用程式，目的是説明測試web應用漏洞掃描器的功能、品質和準確性。
 WAVSEP 收集了很多獨特的包含漏洞的web頁面，用於測試web應用程式掃描器的多種特特性。
 
+https://github.com/sectooladdict/wavsep
 
-Ubuntu14.04下部署wavsep
-https://blog.csdn.net/lesliegail1/article/details/69949041
 
 目前WAVSEP支持的漏洞包括：
 Reflected XSS: 66 test cases, implemented in 64 jsp pages (GET & POST
@@ -13,19 +12,24 @@ Error Based SQL Injection: 80 test cases, implemented in 76 jsp pages (GET & POS
 Blind SQL Injection: 46 test cases, implemented in 44 jsp pages (GET & POST )
 Time Based SQL Injection: 10 test cases, implemented in 10 jsp pages (GET & POST )
 
-http://www.freebuf.com/sectool/125940.html
-
-http://www.dayexie.com/detail1930197.html
 ```
 # 下載wavsep
 ```
 https://code.google.com/archive/p/wavsep/downloads
-
 wavsep-v1.2-war-linux.zip
+
+https://github.com/sectooladdict/wavsep
 ```
 
 # 安裝wavsep
+```
+Ubuntu14.04下部署wavsep
+https://blog.csdn.net/lesliegail1/article/details/69949041
 
+http://www.freebuf.com/sectool/125940.html
+
+http://www.dayexie.com/detail1930197.html
+```
 ```
 一、安裝jdk
 1.下載jdk
