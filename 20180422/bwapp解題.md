@@ -226,7 +226,7 @@ Cross-Site Request Forgery (Change Secret)
 Cross-Site Request Forgery (Transfer Amount)
 ```
 
-###/ A9 - Using Known Vulnerable Components /
+### / A9 - Using Known Vulnerable Components /
 ```
 Buffer Overflow (Local)
 
@@ -250,7 +250,7 @@ SQLiteManager PHP Code Injection
 
 SQLiteManager XSS
 ```
-###/ A10 - Unvalidated Redirects & Forwards /
+### / A10 - Unvalidated Redirects & Forwards /
 ```
 Unvalidated Redirects & Forwards (1)
 
