@@ -1,15 +1,17 @@
-
-
-
 # 使用Ubuntu_16.04_64bit_TensorFlow_jupyter.ova image
-### 建置
+
 ```
-Ubuntu 16.04_64bit
+作業系統:Ubuntu 16.04_64 bit
+硬體:CPU only
+```
+### 建置過程(1)安裝anacoda
+```
+Ubuntu 16.04_64 bit
 CPU:2
 RAM:2G
 Python:2.7  ?? Python:3.5
 ```
-## 安裝 Tensorflow
+### 建置過程(2)安裝 Tensorflow
 
 ```
 sudo apt-get update
