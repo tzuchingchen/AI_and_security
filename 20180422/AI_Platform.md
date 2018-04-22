@@ -27,6 +27,8 @@ sudo pip install tensorflow
 
 # 安裝pytorch平台
 ```
+https://github.com/bharathgs/Awesome-pytorch-list
+
 [1]使用pip安裝
 pip3 install torch torchvision
 
@@ -68,6 +70,7 @@ git clone https://github.com/duoergun0729/4book.git
 
 git clone https://github.com/duoergun0729/nlp.git
 
+# 安裝課本範例
 ```
 MP21710	TensorFlow+Keras深度學習人工智慧實務應用	林大貴 著	978-986-434-216-7	590	2017/6/9	博碩
 MP11626	深度學習快速入門—使用TensorFlow	Giancarlo Zaccone
@@ -89,4 +92,7 @@ https://www.udemy.com/python-for-data-science/?couponCode=PYTHON-DATA-SCI10
 https://github.com/udemy-course/python-data-science-intro
 線上學習程式碼
 http://nbviewer.jupyter.org/github/udemy-course/python-data-science-intro/tree/master/
+```
+```
+https://github.com/caicloud/tensorflow-tutorial.git
 ```
