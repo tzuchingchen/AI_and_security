@@ -3,6 +3,9 @@
 深度学习入门之PyTorch
 廖星宇  電子工業出版社 出版日期: 2017-09-01
 
+https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch
+```
+```
 第1章深度學習介紹1 
 
 
