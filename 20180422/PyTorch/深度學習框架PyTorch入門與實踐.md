@@ -125,6 +125,8 @@ if __name__ == '__main__':
 
 D:\Anaconda3\pkgs底下有許多安裝的套件
 
+執行的程式放在D:\Anaconda3\Scripts   如conda
+
 
 Please note that PyTorch uses shared memory to share data between processes, so if torch multiprocessing is used (e.g.
 for multithreaded data loaders) the default shared memory segment size that container runs with is not enough, and you
