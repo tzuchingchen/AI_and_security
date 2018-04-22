@@ -53,6 +53,26 @@ Data Visualization with Python and [removed] Scrape, Clean, Explore & Transform 
 出版日期：2017/04/18
 ```
 ```
+Python Data Analysis - Second Edition
+Armando Fandango
+March 2017
+https://www.packtpub.com/big-data-and-business-intelligence/python-data-analysis-second-edition
+```
+```
+Foundations for Analytics with Python
+From Non-Programmer to Hacker
+By Clinton Brownley
+Publisher: O'Reilly Media
+Release Date: August 2016
+Pages: 352
+http://shop.oreilly.com/product/0636920038375.do
+https://github.com/cbrownley/foundations-for-analytics-with-python
+```
+```
+https://github.com/Apress/python-data-analytics
+```
+### Pandas
+```
 Learning pandas - Second Edition
 Michael Heydt
 June 2017
@@ -72,25 +92,7 @@ June 2015
 https://www.packtpub.com/big-data-and-business-intelligence/mastering-pandas
 ```
 
-```
-Python Data Analysis - Second Edition
-Armando Fandango
-March 2017
-https://www.packtpub.com/big-data-and-business-intelligence/python-data-analysis-second-edition
-```
-```
-Foundations for Analytics with Python
-From Non-Programmer to Hacker
-By Clinton Brownley
-Publisher: O'Reilly Media
-Release Date: August 2016
-Pages: 352
-http://shop.oreilly.com/product/0636920038375.do
-https://github.com/cbrownley/foundations-for-analytics-with-python
-```
-```
-https://github.com/Apress/python-data-analytics
-```
+
 
 # 線上資源
 ```
