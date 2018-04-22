@@ -58,7 +58,10 @@ Dockerfile is supplied to build images with cuda support and cudnn v7. Build as 
 ```
 docker build -t pytorch -f docker/pytorch/Dockerfile .
 ```
+### [4]安裝別人打包過的套件
 ```
+https://zhuanlan.zhihu.com/p/26871672
+
 # for CPU only packages
 conda install -c peterjc123 pytorch-cpu
 
@@ -70,6 +73,47 @@ conda install -c peterjc123 pytorch cuda90
 
 # for Windows 7/8/8.1 and Windows Server 2008/2012, CUDA 8
 conda install -c peterjc123 pytorch_legacy
+
+
+如果不能忍受conda那蝸牛爬般的網速的話，那麼大家可以嘗試以下兩種途徑：
+
+1.  添加清華源，然後使用conda進行安裝。
+
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/peterjc123/
+
+# for CPU only packages
+conda install pytorch-cpu
+
+# for Windows 10 and Windows Server 2016, CUDA 8
+conda install pytorch
+
+# for Windows 10 and Windows Server 2016, CUDA 9
+conda install pytorch cuda90
+
+# for Windows 7/8/8.1 and Windows Server 2008/2012, CUDA 8
+conda install pytorch_legacy
+2. 從百度雲進行下載，大家下載之後，鍵入如下幾條指令：
+
+cd "下載包的路徑"
+conda install numpy mkl cffi
+conda install --offline pytorch????.tar.bz2
+注：檔案名說明：
+
+一般為以下兩種形式
+
+PACKAGENAME-VERSION-PYTHON_VERSIONcuCUDA_VERSION.tar.bz
+
+或
+
+PACKAGENAME-VERSION-PYTHON_VERSION_cudaCUDA_VERSION_cudnnCUDNN_VERSIONHASH_REVISION.tar.bz2
+
+PACKAGENAME 分為 pytorch 和 pytorch_legacy， 分別為NT內核版本10和6的兩類系統進行編譯；VERSION 代表 pytorch 的版本；而PYTHON則代表python程式的版本，主要分為3.5和3.6；CUDA_VERSION和CUDNN_VERSION分別代表CUDA和cuDNN編譯的版本；REVISION代表修訂號。請自行選擇合適的版本進行安裝。
+
+安裝之後，也千萬要注意，要在主代碼的最外層包上
+
+if __name__ == '__main__':
+這個判斷，可以參照我昨天文章中的例子，因為PyTorch的多執行緒庫在Windows下工作還不正常。
+
 ```
 
 You can also pull a pre-built docker image from Docker Hub and run with nvidia-docker,
