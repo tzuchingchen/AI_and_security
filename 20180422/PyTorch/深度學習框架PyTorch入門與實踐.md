@@ -123,9 +123,15 @@ if __name__ == '__main__':
 
 ```
 
+echo %PATH%
+
+加入到PATH==> PATH =  D:\Anaconda3\Scripts;%PATH%
+
+echo %PATH%
+
 D:\Anaconda3\pkgs底下有許多安裝的套件
 
-執行的程式放在D:\Anaconda3\Scripts   如conda
+執行的程式放在 D:\Anaconda3\Scripts   如conda
 
 把你測試用的程式碼放在D:\data2018\pytorch
 在D:\data2018目錄底下執行jupyter notebook
