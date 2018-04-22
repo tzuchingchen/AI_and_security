@@ -72,3 +72,21 @@ git clone https://github.com/duoergun0729/nlp.git
 MP21710	TensorFlow+Keras深度學習人工智慧實務應用	林大貴 著	978-986-434-216-7	590	2017/6/9	博碩
 MP11626	深度學習快速入門—使用TensorFlow	Giancarlo Zaccone
 ```
+```
+Deep Learning：用Python進行深度學習的基礎理論實作
+https://github.com/oreilly-japan/deep-learning-from-scratch
+作者： 斎藤康毅  譯者： 吳嘉芳
+出版社：歐萊禮  出版日期：2017/08/17
+第一章 Python入門   第二章 感知器 
+第三章 神經網路   第四章 神經網路的學習  第五章 誤差反向傳播法 
+第六章 與學習有關的技巧  第七章 卷積神經網路  第八章 深度學習 
+附錄A Softmax-with-Loss層的計算圖 
+git clone https://github.com/oreilly-japan/deep-learning-from-scratch
+```
+```
+Python3 for Data Science 
+https://www.udemy.com/python-for-data-science/?couponCode=PYTHON-DATA-SCI10
+https://github.com/udemy-course/python-data-science-intro
+線上學習程式碼
+http://nbviewer.jupyter.org/github/udemy-course/python-data-science-intro/tree/master/
+```
