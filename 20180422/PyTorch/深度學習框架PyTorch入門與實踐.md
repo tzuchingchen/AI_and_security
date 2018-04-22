@@ -166,6 +166,21 @@ https://github.com/pytorch/pytorch
 http://pytorch.org/docs/stable/index.html
 
 ```
+## ipython
+
+快捷鍵
+
+魔術方法: %
+%timeit
+%hist
+%paste
+%cat
+%run
+%env
+%magic
+
+%debug ===>ipdb debugger
+
 
 ## PyTorch深論
 
