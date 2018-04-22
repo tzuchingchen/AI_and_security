@@ -53,3 +53,14 @@ pip install -r requirements.txt====>一些錯誤
 
 import torch as t
 
+# 安裝Websecurity範例
+
+Web安全之机器学习入门
+
+https://github.com/duoergun0729/1book
+
+git clone https://github.com/duoergun0729/2book.git
+
+git clone https://github.com/duoergun0729/3book.git
+
+git clone https://github.com/duoergun0729/4book.git
