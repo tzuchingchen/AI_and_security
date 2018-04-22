@@ -1,5 +1,6 @@
 # 使用Ubuntu_16.04_64bit_TensorFlow_jupyter.ova image
 
+
 ```
 作業系統:Ubuntu 16.04_64 bit
 硬體:CPU only
@@ -66,3 +67,8 @@ git clone https://github.com/duoergun0729/3book.git
 git clone https://github.com/duoergun0729/4book.git
 
 git clone https://github.com/duoergun0729/nlp.git
+
+```
+MP21710	TensorFlow+Keras深度學習人工智慧實務應用	林大貴 著	978-986-434-216-7	590	2017/6/9	博碩
+MP11626	深度學習快速入門—使用TensorFlow	Giancarlo Zaccone
+```
