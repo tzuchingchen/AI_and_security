@@ -58,6 +58,19 @@ Dockerfile is supplied to build images with cuda support and cudnn v7. Build as 
 ```
 docker build -t pytorch -f docker/pytorch/Dockerfile .
 ```
+```
+# for CPU only packages
+conda install -c peterjc123 pytorch-cpu
+
+# for Windows 10 and Windows Server 2016, CUDA 8
+conda install -c peterjc123 pytorch
+
+# for Windows 10 and Windows Server 2016, CUDA 9
+conda install -c peterjc123 pytorch cuda90
+
+# for Windows 7/8/8.1 and Windows Server 2008/2012, CUDA 8
+conda install -c peterjc123 pytorch_legacy
+```
 
 You can also pull a pre-built docker image from Docker Hub and run with nvidia-docker,
 but this is not currently maintained and will pull PyTorch 0.2.
