@@ -195,10 +195,8 @@ https://github.com/caicloud/tensorflow-tutorial/tree/master/Deep_Learning_with_T
 {教科書}深度學習框架PyTorch入門與實踐
 深度學習框架PyTorch:入門與實踐 深度学习框架PyTorch:入门与实践
 陳雲 電子工業出版社  出版日期:2018-01-01
-
 https://github.com/chenyuntc/pytorch-book
 ```
-
 ```
 深度學習入門之PyTorch
 深度学习入门之PyTorch
@@ -211,12 +209,35 @@ Vishnu Subramanian
 February 2018
 ```
 
-
-
-```
-
-
-```
 ### 參考書:Reforcement Learning
-
+```
+強化學習 强化学习
+馬可·威寧 (Marco Wiering), 馬丁·範·奧特羅 (Martijn van Otterlo)
+機械工業出版社
+出版日期:2018-07-03
+```
+```
+強化學習精要：核心算法與TensorFlow實現 强化学习精要:核心算法与TensorFlow实现
+馮超
+電子工業出版社
+出版日期:2018-04-01
+https://www.tenlong.com.tw/products/9787121340000
+```
+```
+多智能體機器學習:強化學習方法 多智能体机器学习:强化学习方法
+霍華德M施瓦茲
+機械工業出版社
+出版日期:2017-07-10
+```
+```
+Web安全之強化學習與GAN
+劉焱/機械工業出版社出版日期：2018-04-01
+https://www.tenlong.com.tw/products/9787111593454
+```
 ### 參考書:CAN
+```
+GAN:實戰生成對抗網絡 GAN:实战生成对抗网络
+昆塔勒·甘古力 (Kuntal Ganguly)
+電子工業出版社
+出版日期:2018-06-01
+```
