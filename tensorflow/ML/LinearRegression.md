@@ -27,6 +27,47 @@ print(lm.coef_)
 print(lm.intercept_ )
 
 ```
+執行
+```
+python2 abc.py
+  File "abc.py", line 4
+SyntaxError: Non-ASCII character '\xe8' in file abc.py on line 4, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+```
+錯誤更正==>加入頭兩欄
+
+```
+#!/usr/bin/python
+# -*- coding: UTF-8 -*- 
+
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# 資料==> 使用np.array來建立氣溫及冰紅茶的銷售量
+temperatures = np.array([29, 28, 34, 31, 25, 29, 32, 31, 24, 33, 25, 31, 26, 30])
+iced_tea_sales = np.array([77, 62, 93, 84, 59, 64, 80, 75, 58, 91, 51, 73, 65, 84])
+
+# 先建立線性迴歸的物件
+lm = LinearRegression()
+
+# 再用線性迴歸物件的fit()函式進行分析
+lm.fit(np.reshape(temperatures, (len(temperatures), 1)), np.reshape(iced_tea_sales, (len(iced_tea_sales), 1)))
+
+
+# 印出係數
+print(lm.coef_)
+
+# 印出截距
+print(lm.intercept_ )
+
+```
+再次執行
+```
+python2 abc.py
+[[ 3.73788546]]
+[-36.36123348]
+
+```
+
 
 ###  使用線性迴歸分析模型預測:用氣溫來預測冰紅茶的銷售量
 
