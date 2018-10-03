@@ -17,5 +17,5 @@ https://seclab.stanford.edu/AdvML2017/slides/dawn-stanford-ai-security-workshop-
 
 林x慶 https://github.com/janus03171014/AI-and-Security
 
-陳X靖 
+陳X靖 https://github.com/tzuchingchen/AI-
 
