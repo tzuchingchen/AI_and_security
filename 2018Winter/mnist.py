@@ -1,5 +1,7 @@
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutorials/mnist/mnist.py
 
+  https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/tutorials/mnist
+  
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
