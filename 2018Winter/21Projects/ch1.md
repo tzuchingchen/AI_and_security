@@ -1,4 +1,8 @@
-# 下載教科書程式碼
+# MNIST DATABASE
+
+http://yann.lecun.com/exdb/mnist/
+
+### 下載教科書程式碼
 
 git clone https://github.com/hzy46/Deep-Learning-21-Examples.git
 ```
